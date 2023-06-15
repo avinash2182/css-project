@@ -7,8 +7,7 @@
     padding-top: 30px;
     box-shadow: 3px 3px 5px #F7F7F7;
     background-color: #FFFFFF;
-    box-shadow: 0px 7px 5px gray;
-
+    box-shadow: 0px 2px 3px #7B7B7B29;
 }
 body{
     background-color: #F7F7F7;
@@ -39,7 +38,7 @@ body{
    }
    .aparent1{
          display: flex; 
-         align-items: center;
+         /* align-items: center; */
        /* color: #00A5EC; */
        /* position: absolute;*/
        /* top: 200px; */
@@ -61,12 +60,14 @@ body{
     left: 38%;
     top: 270px;
     box-shadow: 3px 3px 5px #67676729;
-    text-align: center;
+    /* text-align: center; */
     /* background-color: #FFFFFF; */
    }
    .paris{
-    font-size: 22px;
+    font-size: 25px;
     color: #00A5EC;
+    text-align: center;
+    font-weight: bold;
    }
    .church{
     font-size: 19px;
@@ -76,7 +77,19 @@ body{
     font-size: 19px;
     color: #424242;
    }
-   .wild{
+   /* .wild{
     text-decoration: line-through;
      color: #C2C2C2; 
- } 
+ }  */
+ .crossline{
+    text-decoration: line-through;
+    color: #C2C2C2;
+ }
+ input{
+     height: 22px;
+     width: 22px;
+    
+ }
+ .wild1{
+        padding-left: 25px;
+ }

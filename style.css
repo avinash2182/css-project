@@ -5,11 +5,39 @@
     height: 60px;
     padding-left: 100px;
     padding-top: 30px;
-    box-shadow: 3px 3px 5px #F7F7F7;
+    box-shadow: 2px 2px 3px #F7F7F7;
     background-color: #FFFFFF;
-    box-shadow: 0px 10px 5px gray;
-
+    /* box-shadow: 0px 10px 5px gray; */
 }
+
+.hrr{
+    border: #EDEDED;
+}
+.head1{
+    padding-left: 18px;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+.head2{
+    padding-left: 18px;
+    font-size: 25px;
+}
+.head3{
+    padding-left: 18px;
+    font-size: 25px;
+}
+.head4{
+
+    padding-left: 18px;
+    font-size: 25px;
+}
+.head5{
+    padding-left: 18px;
+    font-size: 25px;
+}
+
 .child1{
     font-size: 35px;
 }
@@ -41,7 +69,7 @@
 }
 
  .child{
-    border: 1px solid black;
+    border: 1px solid #EDEDED;
     border-radius: 5px;
     width: 330px;
     height: 325px;
@@ -68,29 +96,85 @@ p{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-     row-gap: 15px;  
+    row-gap: 15px;  
     margin-top: 100px;
     margin-left: 150px;
     /* column-gap: 5px; */
     /* margin: 130px; */
-    text-align: center;
+    /* text-align: center; */
     /* padding-right: 20px;
     padding: 10px;*/
     column-gap: 9px;
-    row-gap: 60px
-    ;
+    row-gap: 60px;
 } 
-body{
-    background-color: #F7F7F7;
+.newlist1{
+    padding-left: 21px;
+    font-size: 20px;
 }
+.newlist2{
+    padding-left: 21px;
+    font-size: 20px;
+}
+.newlist3{
+    padding-left: 21px;
+    font-size: 20px;
+}
+.newlist4{
+    padding-left: 21px;
+    font-size: 20px;
+}
+.newlist5{
+    padding-left: 21px;
+    font-size: 20px;
+}
+.div1{
+    font-size: 25px;
+}
+input{
+    font-size: 18px;
+    width: 25px;
+    height: 25px;
+}
+.background{
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 1800;
+}
+ /* body{
+    
+    height: 1300px;
+}  */
 .wild{
     text-decoration: line-through;
     color: #C2C2C2;
     /* text-align: center */
 }
+.div1{
+    font-size: 25px;
+}
 
 .child:hover{
    background-color: #67676729;
 }
+/* .footer{
+    border: 1px solid #EDEDED;
+    background-color: #EDEDED;
+    width: 100%;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+}
+
+.div1{
+    color: #C2C2C2;
+    /* background-color: #424242; */
+} */
+/* .div1:hover{
+    background-color: ;
+    
+} */
 
 

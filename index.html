@@ -1,91 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./style.css"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
-</head>
-<body>
-    <nav class="header">
+  </head>
+  <body>
+    <div class="background">
+      <nav class="header">
         <span class="child1">Tasks</span> <span class="child2">List</span>
-    </nav>
+      </nav>
 
-    <div class="aparent">
-
+      <div class="aparent">
         <div>
-       
-       <a href="./second.html" class="achild"><i class="fa-sharp fa-solid fa-circle-plus"></i></a>
+          <a href="./second.html" class="achild"
+            ><i class="fa-sharp fa-solid fa-circle-plus"></i
+          ></a>
         </div>
         <div>
-            <a href="./second.html" class="bchild">Add New Task</a>
+          <a href="./second.html" class="bchild">Add New Task</a>
         </div>
+      </div>
 
-    </div>
-   
+      <div>
+        <div class="parent">
+          <div class="child3 child">
+            
+           <a href="./index3.html"><p class="head1">Trip to Paris</p></a> 
+            <hr />
+            <div class="newlist1">
+              <div class="wild1 wild">
+                <div>
+                  <input
+                    type="checkbox"
+                    class="div1"
+                    id="visit"
+                    checked
+                  /><label for="visit">visit church</label>
+                </div>
+              </div>
+              <br />
 
-    <div class="parent">
-       
-        <div class="child3 child">
-           <p>Trip to Paris</p>
-           <hr>
-           <div class="wild1 wild">
-
-           <input type="checkbox" id="visit" checked><label for="visit">visit church</label>
-        </div>
-
-           <br>
-           <input type="checkbox" id="shop" ><label for="shop">Shopping</label> 
-        </div>
-        <div class="child4 child">
-            <p>My To Do List</p>
-            <hr>
+             <input type="checkbox"  id="shop" />
+             <label for="shop"
+                >Shopping</label 
+              >
+            </div>
+          </div>
+          <div class="child4 child">
+            <p class="head2">My To Do List</p>
+            <hr />
+            <div class="newlist2">
             <div class="wild2 wild">
-
-            <input type="checkbox" id="list" checked><label for="list">visit supermarket</label>
-             </div>
-
-            <br>
-            <input type="checkbox" id="veg"><label for="veg">Buy Vegetables</label>
-        </div>
-        <div class="child5 child">
-            <p>Movies I Will Watch</p>
-            <hr>
-            <div class="wild3 wild">
-
-            <input type="checkbox" id="list" checked><label for="list">Strange Thing4</label>
+              <input type="checkbox" id="list" checked /><label for="list"
+                >visit supermarket</label
+              >
             </div>
 
-            <br>
-            <input type="checkbox" id="veg"><label for="veg">Avengers EndGame</label>
+            <br />
+            <input type="checkbox" id="veg" /><label for="veg"
+              >Buy Vegetables</label
+            >
         </div>
-         
-        <div class="child6 child">
-            <p>Daily Morning Routin for</p>
-            <hr>
-            <div class="wild4 wild">
+          </div>
+          <div class="child5 child">
+            <p class="head3">Movies I Will Watch</p>
+            <hr />
+            <div class="newlist3">
+            <div class="wild3 wild">
+              <input type="checkbox" id="list" checked /><label for="list"
+                >Strange Thing4</label
+              >
+            </div>
 
-            <input type="checkbox" id="list" checked><label for="list">Wake Up at 6 AM</label>
+            <br />
+            <input type="checkbox" id="veg" /><label for="veg"
+              >Avengers EndGame</label
+            >
+        </div>
           </div>
 
-            <br>
-            <input type="checkbox" id="veg"><label for="veg">Sleep at 10 PM</label>
-        </div>
-        <div class="child7 child">
-            <p>Books To Read</p>
-            <hr>
-            <div class="wild5 wild">
-
-            <input type="checkbox" id="list" checked><label for="list">Design of everyday</label>
+          <div class="child6 child">
+            <p class="head4">Daily Morning Routin for</p>
+            <hr />
+            <div class="newlist4">
+            <div class="wild4 wild">
+              <input type="checkbox" id="list" checked /><label for="list"
+                >Wake Up at 6 AM</label
+              >
             </div>
 
-            <br>
-            <input type="checkbox" id="veg"><label for="veg">Alchemist</label>
+            <br />
+            <input type="checkbox" id="veg" /><label for="veg"
+              >Sleep at 10 PM</label
+            >
         </div>
-    
+          </div>
+          <div class="child7 child">
+            <p class="head5">Books To Read</p>
+            <hr />
+            <div class="newlist5">
+            <div class="wild5 wild">
+              <input type="checkbox" id="list" checked /><label for="list"
+                >Design of everyday</label
+              >
+            </div>
+
+            <br />
+            <input type="checkbox" id="veg" /><label for="veg">Alchemist</label>
+          </div>
+        </div>
+        </div>
+        <br />
+      </div>
     </div>
 
-</body>
+    <!-- <div class="footer">
+    <div class="div1">
+        <i class="fa-solid fa-house"></i>
+    </div>
+
+    <div class="div2">
+        < 1 of 4 >
+    </div>
+</div> -->
+  </body>
 </html>
