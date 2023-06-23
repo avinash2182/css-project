@@ -1,180 +1,114 @@
-.header{
-    border: 1px solid #7B7B7B29;
-    width: 100%;
-    font-weight: bold;
-    height: 60px;
-    padding-left: 100px;
-    padding-top: 30px;
-    box-shadow: 2px 2px 3px #F7F7F7;
-    background-color: #FFFFFF;
-    /* box-shadow: 0px 10px 5px gray; */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #F7F7F7;
+    width: 99%;
+    height: 1000px;
+}
+.nav
+{ 
+ border: 2px solid #7B7B7B29;
+ background-color: #FFFFFF;
+ height: 100px;
+ align-items: center;
+ font-size: 35px;
+ display: flex;
+ /* justify-content: flex-start; */
+ column-gap: 10px;
+ 
+ 
+}
+.blueword{
+    color: #00A5EC;
+}
+.taskbar{
+    font-size: 26px;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    height: 100px;
+    width: 98%;
+    align-items: center;
+    column-gap: 10px;
+
+  
+}
+.logo
+{
+    color: #00A5EC;
 }
 
-.hrr{
-    border: #EDEDED;
-}
-.head1{
-    padding-left: 18px;
-    font-size: 25px;
-}
 a{
     text-decoration: none;
-}
-.head2{
-    padding-left: 18px;
-    font-size: 25px;
-}
-.head3{
-    padding-left: 18px;
-    font-size: 25px;
-}
-.head4{
-
-    padding-left: 18px;
-    font-size: 25px;
-}
-.head5{
-    padding-left: 18px;
-    font-size: 25px;
-}
-
-.child1{
-    font-size: 35px;
-}
-.child2{
-    font-size: 35px;
     color: #00A5EC;
 }
-.achild{
- font-size: 35px;
- color: #00A5EC;
-}
-.bchild{
-    text-decoration: none;
+ h3{
     color: #00A5EC;
-    font-size: 25px;
-}
-.aparent{
-     display: flex; 
-     justify-content: center;
-     align-items: center;
-    /* color: #00A5EC; */
-    position: absolute;
-    top: 120px;
-    right: 100px;
-}
-
-.achild{
-    margin-right: 10px;
-}
-
- .child{
-    border: 1px solid #EDEDED;
-    border-radius: 5px;
-    width: 330px;
-    height: 325px;
-    background-color: #FFFFFF;
- }   
- .child6{
     position: relative;
-    left: -145px;
-    /* top: 200px; */
-
- }
- .child7{
-    position: relative;
-    left: -285px;
- }
-    
-p{
-    color: #00A5EC;
-    font-size: 21px;
-    font-weight: bold;
-}
-
-.parent{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    row-gap: 15px;  
-    margin-top: 100px;
-    margin-left: 150px;
-    /* column-gap: 5px; */
-    /* margin: 130px; */
-    /* text-align: center; */
-    /* padding-right: 20px;
-    padding: 10px;*/
-    column-gap: 9px;
-    row-gap: 60px;
+    left: 25px;
+    top: 15px; 
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 } 
-.newlist1{
-    padding-left: 21px;
-    font-size: 20px;
-}
-.newlist2{
-    padding-left: 21px;
-    font-size: 20px;
-}
-.newlist3{
-    padding-left: 21px;
-    font-size: 20px;
-}
-.newlist4{
-    padding-left: 21px;
-    font-size: 20px;
-}
-.newlist5{
-    padding-left: 21px;
-    font-size: 20px;
-}
-.div1{
-    font-size: 25px;
-}
-input{
-    font-size: 18px;
-    width: 25px;
-    height: 25px;
-}
-.background{
-    background-color: #F7F7F7;
-    width: 100%;
-    height: 1800;
-}
- /* body{
-    
-    height: 1300px;
-}  */
-.wild{
-    text-decoration: line-through;
-    color: #C2C2C2;
-    /* text-align: center */
-}
-.div1{
-    font-size: 25px;
-}
 
-.child:hover{
-   background-color: #67676729;
-}
-/* .footer{
-    border: 1px solid #EDEDED;
-    background-color: #EDEDED;
-    width: 100%;
-    height: 87px;
+.main{
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 0px;
 }
+.container{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.headline{
+    height: 50px;
+}
+.box{
 
-.div1{
-    color: #C2C2C2;
-    /* background-color: #424242; */
-} */
-/* .div1:hover{
-    background-color: ;
+    width: 280px;
+    height: 300px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: 2px solid  #EDEDED;
     
-} */
 
+}
+.checkbox1{
+    text-decoration: line-through;
+    color: #C2C2C2;
+    position: relative;
+    left: 25px;
+    top: 15px;
+}
+.checkboxx{
+    position: relative;
+    left: 25px;
+    top: 15px;
+}
+input{
+    height: 20px;
+    width: 20px;
+}
+hr{
+     /* border:#C2C2C2  */
+}
+@media screen and (max-width:500px)
+{
+    .container{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:402px)
+{
+    .rightword
+    {
+         visibility: hidden; 
+        /* display: none; */
 
+    }
+}

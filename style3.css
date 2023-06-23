@@ -1,95 +1,111 @@
-.tophead{
-    border: 1px solid #7B7B7B29;
-    width: 100%;
-    font-weight: bold;
-    height: 60px;
-    padding-left: 100px;
-    padding-top: 30px;
-    box-shadow: 3px 3px 5px #F7F7F7;
-    background-color: #FFFFFF;
-    box-shadow: 0px 2px 3px #7B7B7B29;
-}
 body{
     background-color: #F7F7F7;
 }
-
-
-.nav1{
-    font-size: 35px;
+.nav
+{ 
+ border: 2px solid #7B7B7B29;
+ background-color: #FFFFFF;
+ height: 100px;
+ align-items: center;
+ font-size: 35px;
+ font-weight: bold;
+ display: flex;
+ /* justify-content: flex-start; */
+ column-gap: 10px;
 }
-.nav2{
-    font-size: 35px;
+.blueword{
     color: #00A5EC;
 }
-.achild1{
-    font-size: 35px;
-    color: #00A5EC;
-   }
-.achild2{
-       text-decoration: none;
-       color: #00A5EC;
-       font-size: 25px;
-   }
-   .backbutton{
-    position: absolute;
-    left: 583px;
-    top: 175px;
-    font-size: 26px;
-   }
-   .aparent1{
-         display: flex; 
-         /* align-items: center; */
-       /* color: #00A5EC; */
-       /* position: absolute;*/
-       /* top: 200px; */
-       /* right: 100px;  */
-       position: absolute;
-       left: 745px;
-       top: 200px;
-
-   }
-   .bluebutton{
-    margin-right: 3px;
-   }
-   .box{
+.main-container
+{
     border: 1px solid #67676729;
-    border-radius: 10px;
-    width: 350px;
+    border-radius: 5px;
     height: 300px;
-    position: absolute;
-    left: 38%;
-    top: 270px;
-    box-shadow: 3px 3px 5px #67676729;
-    /* text-align: center; */
-    /* background-color: #FFFFFF; */
-   }
-   .paris{
-    font-size: 25px;
+    width: 280px;
+    background-color: white;  
+}
+#add1
+{
     color: #00A5EC;
-    text-align: center;
-    font-weight: bold;
-   }
-   .church{
-    font-size: 19px;
-    color: #C2C2C2;
-   }
-   .shop{
-    font-size: 19px;
-    color: #424242;
-   }
-   /* .wild{
-    text-decoration: line-through;
-     color: #C2C2C2; 
- }  */
- .crossline{
-    text-decoration: line-through;
-    color: #C2C2C2;
- }
- input{
-     height: 22px;
-     width: 22px;
+}
+#add
+{
+    color: black;
+}
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* .parent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+} */
+.main-button
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 60px;
+}
+.changes
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bluebutton
+{
+    font-size: 22px;
     
- }
- .wild1{
-        padding-left: 25px;
- }
+    
+}
+.backbutton
+{
+    font-size: 22px;
+    /* color: black; */
+}
+.para
+{
+    color: black;
+}
+.child1
+{
+    color: #00A5EC;
+}
+.trip
+{
+    text-align: center;
+    color: #00A5EC;
+}
+input{
+    height: 21px;
+    width: 21px;
+
+}
+
+.charch
+{
+ text-decoration: line-through; 
+
+}
+a{
+    text-decoration: none;
+}
+.combine
+{
+    margin-left: 20px;
+}
+@media screen and (max-width:500px)
+{
+    .container{
+        flex-direction: column;
+       
+}
+#add
+{
+ visibility: hidden;
+} 
+}

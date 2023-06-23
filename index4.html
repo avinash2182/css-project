@@ -1,59 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style3.css">
-    <link rel="stylesheet" href="./style4.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-     <nav class="tophead">
-        <span class="nav1">Tasks</span> <span class="nav2">List</span>
-    </nav>
-    
-    <div class="aparent1">
+    <link rel="stylesheet" href="./style4.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="nav"><span>Tasks</span> <span class="blueword">List</span></div>
+    <div class="parent">
+      <div class="main-button">
+        <div class="backbutton">
+          <a href="index.html" class="anchorback"
+            ><p class="para">
+              <i class="fa-sharp fa-solid fa-circle-arrow-left arrowcl"></i
+              >&nbspBack
+            </p></a
+          >
+        </div>
 
         <div class="bluebutton">
-       <a href="./second.html" class="achild1"><i class="fa-sharp fa-solid fa-circle-plus"></i></a>
+          <a href="./index4.html"
+            ><span id="add1"
+              ><i class="fa-sharp fa-solid fa-circle-plus"></i></span
+          ></a>
+          <a href="./index4.html"><span id="add">Add New Task</span></a>
         </div>
-        <div>
-       <a href="./index4.html" class="achild2">Add New Task</a>
+      </div>
+      <br />
+      <div class="changes">
+        <div class="main-container">
+          <div>
+            <h3 class="trip">Trip to Paris</h3>
+          </div>
+          <hr />
+          <div class="combine">
+            <div class="church">
+              <input type="checkbox" id="visit" checked /><label for="visit"
+                >visit church</label
+              >
+            </div>
+            <div class="shopping">
+              <input type="checkbox" id="shop" /><label for="shop"
+                >Shopping</label
+              >
+            </div>
+          </div>
         </div>
-      
+      </div>
     </div>
-
-    <div class="backbutton">
-        <a href="index.html" class="anchorback"><p class="para"><i class="fa-sharp fa-solid fa-circle-arrow-left arrowcl"></i>&nbsp;Back</p></a>
+    <div class="opacity3"></div>
+    <div class="main-div">
+      <div class="sub-div1">
+        <div class="div-child1">
+          <p>Add New Item</p>
+        </div>
+        <div class="div-child2">
+          <a href="./index3.html"
+            ><i class="fa-solid fa-xmark" class="cancle"></i
+          ></a>
+        </div>
+      </div>
+      <hr />
+      <div class="sub-div2">
+        <input type="text" placeholder="visit fomous places" class="blank" />
+        <button>+Add Item</button>
+      </div>
     </div>
-
-    <div class="box">
-        <p class="paris">Trip to Paris</p>
-        <hr class="hrr">        <div class="wild1 wild">
-        <input type="checkbox" id="visit" checked><label for="visit" class="church">visit church</label><br>
-        <br>
-        <input type="checkbox" id="shop" >    <label for="shop" class="shop">Shopping</label> 
-
-     </div>
-   </div> 
-    <div class="item-opa">
-
-    </div>
-   <div class="itembox">
-   <p class="add">Add New Item</p>
-   <div class="cross">
-   <a href="./index3.html"><i class="fa-solid fa-xmark"></i></a>
-   </div>
-   <hr class="hrr">
-   <input type="text" id="input_data" placeholder="Visit Famous Places">
-   
-   <div class="task">
-    <p class="add1">+Add Task</p>
-   </div>
-   
-   </div>
-   
-</body>
+  </body>
 </html>
